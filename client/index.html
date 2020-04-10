@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<title>dataExpert.io</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body,h1 {font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+.bgimg {
+  background-image: url('/css/forestimage.jpg');
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+a {
+  background:#add8e6;
+  color:#000000;
+  font-size:105px;
+  padding:20px 12px;
+  border-radius:50px;
+  -moz-border-radius:30px;
+  -webkit-border-radius:30px;
+  text-decoration:none;
+  
+  display: block; /* Added */
+}   
+</style>
+<body>
+<div class="bgimg w3-display-container w3-animate-opacity w3-text-black" style="text-align: center">
+<div class="w3-display-topleft w3-padding-large w3-xlarge" 
+ id="root" style="text-align: center">
+<a href="index.js" id='mylink'>G-5 Knowledge Graph Project</a>
+<script type="text/javascript">
+ var myLink = document.getElementById('mylink');
+myLink.onclick = function(){
+
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src = "index.js"; 
+    document.getElementsByTagName("head")[0].appendChild(script);
+    return false;
+    
+}
+</script>
+</div>
+
+</body>
+</html>

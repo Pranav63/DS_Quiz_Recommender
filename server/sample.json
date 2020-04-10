@@ -1,0 +1,732 @@
+{
+    "Sheet1": [
+        {
+            "Topic": "CNN",
+            "QN": "Which of the following statements is true when you use 1×1 convolutions in a CNN?",
+            "A": "It can help in dimensionality reduction",
+            "B": "It can be used for feature pooling",
+            "C": "It suffers less overfitting due to small kernel size",
+            "D": "All of the above",
+            "Solution": "D",
+            "Difficulty": "3"
+        },
+        {
+            "Topic": "CNN",
+            "QN": "The number of nodes in the input layer is 10 and the hidden layer is 5. The maximum number of connections from the input layer to the hidden layer are",
+            "A": "50",
+            "B": "Less than 50",
+            "C": "More than 50",
+            "D": "It is an arbitrary value",
+            "Solution": "A",
+            "Difficulty": "2"
+        },
+        {
+            "Topic": "CNN",
+            "QN": "The input image has been converted into a matrix of size 28 X 28 and a kernel/filter of size 7 X 7 with a stride of 1. What will be the size of the convoluted matrix?",
+            "A": "22 X 22",
+            "B": "21 X 21",
+            "C": "28 X 28",
+            "D": "7 X 7",
+            "Solution": "A",
+            "Difficulty": "1"
+        },
+        {
+            "Topic": "CNN",
+            "QN": "In CNN, having max pooling always decrease the parameters?",
+            "A": "TRUE",
+            "B": "FALSE",
+            "Solution": "B",
+            "Difficulty": "2"
+        },
+        {
+            "Topic": "CNN",
+            "QN": "Which of the statements given above is true?\nStatement 1: It is possible to train a network well by initializing all the weights as 0\nStatement 2: It is possible to train a network well by initializing biases as 0\n",
+            "A": " Statement 1 is true while Statement 2 is false",
+            "B": "Statement 2 is true while statement 1 is false",
+            "C": "Both statements are true",
+            "D": "Both statements are false",
+            "Solution": "B",
+            "Difficulty": "2"
+        },
+        {
+            "Topic": "CNN",
+            "QN": "In a simple MLP model with 8 neurons in the input layer, 5 neurons in the hidden layer and 1 neuron in the output layer. What is the size of the weight matrices between hidden output layer and input hidden layer?",
+            "A": "[1 X 5] , [5 X 8]",
+            "B": "[8 X 5] , [ 1 X 5]",
+            "C": "[8 X 5] , [5 X 1]",
+            "D": "[5 x 1] , [8 X 5]",
+            "Solution": "D",
+            "Difficulty": "2"
+        },
+        {
+            "Topic": "CNN",
+            "QN": "Which of the following functions can be used as an activation function in the output layer if we wish to predict the probabilities of n classes (p1, p2..pk) such that sum of p over all n equals to 1?",
+            "A": "Softmax",
+            "B": "ReLu",
+            "C": " Sigmoid",
+            "D": "Tanh",
+            "Solution": "A",
+            "Difficulty": "1"
+        },
+        {
+            "Topic": "CNN",
+            "QN": "Assume a simple MLP model with 3 neurons and inputs= 1,2,3. The weights to the input neurons are 4,5 and 6 respectively. Assume the activation function is a linear constant value of 3. What will be the output ?",
+            "A": "32",
+            "B": "643",
+            "C": "96",
+            "D": " 48",
+            "Solution": "C",
+            "Difficulty": "2"
+        },
+        {
+            "Topic": "CNN",
+            "QN": "Which of following activation function can’t be used at output layer to classify an image ?",
+            "A": "sigmoid",
+            "B": "Tanh",
+            "C": "ReLU",
+            "D": "If(x>5,1,0)",
+            "E": "None of the above",
+            "Solution": "C",
+            "Difficulty": "2"
+        },
+        {
+            "Topic": "CNN",
+            "QN": "In the neural network, every parameter can have their different learning rate.",
+            "A": "TRUE",
+            "B": "FALSE",
+            "Solution": "A",
+            "Difficulty": "3"
+        },
+        {
+            "Topic": "CNN",
+            "QN": "Dropout can be applied at visible layer of Neural Network model?",
+            "A": "TRUE",
+            "B": "FALSE",
+            "Solution": "A",
+            "Difficulty": "1"
+        },
+        {
+            "Topic": "CNN",
+            "QN": "Which of the following would have a constant input in each epoch of training a Deep Learning model?",
+            "A": "Weight between input and hidden layer",
+            "B": "Weight between hidden and output layer",
+            "C": "Biases of all hidden layer neurons",
+            "D": "Activation function of output layer",
+            "E": "None of the above",
+            "Solution": "A",
+            "Difficulty": "3"
+        },
+        {
+            "Topic": "CNN",
+            "QN": "Suppose there is an issue while training a neural network. The training loss/validation loss remains constant. What could be the possible reason?",
+            "A": "Architecture is not defined correctly",
+            "B": "Data given to the model is noisy",
+            "C": "Both of these",
+            "Solution": "C",
+            "Difficulty": "2"
+        },
+        {
+            "Topic": "CNN",
+            "QN": "Which of the following statement is true regrading dropout?\n1: Dropout gives a way to approximate by combining many different architectures\n2: Dropout demands high learning rates\n3: Dropout can help preventing overfitting\n",
+            "A": "Both 1 and 2",
+            "B": "Both 1 and 3",
+            "C": "Both 2 and 3",
+            "D": "All 1, 2 and 3",
+            "Solution": "B",
+            "Difficulty": "2"
+        },
+        {
+            "Topic": "NLP",
+            "QN": "Which of the following techniques can be used for the purpose of keyword normalization, the process of converting a keyword into its base form?\n1. Lemmatization\n2. Levenshtein\n3. Stemming\n4. Soundex\n",
+            "A": "1 and 2",
+            "B": "2 and 4",
+            "C": "1 and 3",
+            "D": "1, 2 and 3",
+            "E": "2, 3 and 4",
+            "Solution": "C",
+            "Difficulty": "2"
+        },
+        {
+            "Topic": "NLP",
+            "QN": "N-grams are defined as the combination of N keywords together. How many bi-grams can be generated from given sentence:\n“Reading and coding are great ways to learn data science”",
+            "A": "7",
+            "B": "8",
+            "C": "9",
+            "D": "10",
+            "E": "11",
+            "Solution": "C",
+            "Difficulty": "3"
+        },
+        {
+            "Topic": "NLP",
+            "QN": "Which of the following features can be used for accuracy improvement of a classification model?",
+            "A": "Frequency count of terms",
+            "B": "Vector Notation of sentence",
+            "C": "Part of Speech Tag",
+            "D": "Dependency Grammar",
+            "E": "All of these",
+            "Solution": "E",
+            "Difficulty": "2"
+        },
+        {
+            "Topic": "NLP",
+            "QN": "What is the right order for a text classification model components\n1. Text cleaning\n2. Text annotation\n3. Gradient descent\n4. Model tuning\n5. Text to predictors",
+            "A": "12345",
+            "B": "13425",
+            "C": "12534",
+            "D": "13452",
+            "Solution": "C",
+            "Difficulty": "1"
+        },
+        {
+            "Topic": "NLP",
+            "QN": "Which of the following models can be used for the purpose of document similarity?",
+            "A": "Training a word 2 vector model on the corpus that learns context present in the document",
+            "B": "Training a bag of words model that learns occurrence of words in the document",
+            "C": "Creating a document-term matrix and using cosine similarity for each document",
+            "D": "All of the above",
+            "Solution": "D",
+            "Difficulty": "3"
+        },
+        {
+            "Topic": "NLP",
+            "QN": "While creating a machine learning model on text data, you created a document term matrix of the input data of 100K documents. Which of the following remedies can be used to reduce the dimensions of data –\n1. Latent Dirichlet Allocation\n2. Latent Semantic Indexing\n3. Keyword Normalization",
+            "A": "only 1",
+            "B": "2, 3",
+            "C": "1, 3",
+            "D": "1, 2, 3",
+            "Solution": "D",
+            "Difficulty": "1"
+        },
+        {
+            "Topic": "NLP",
+            "QN": "Google Search’s feature – “Did you mean”, is a mixture of different techniques. Which of the following techniques are likely to be ingredients?\n1. Collaborative Filtering model to detect similar user behaviors (queries)\n2. Model that checks for Levenshtein distance among the dictionary terms\n3. Translation of sentences into multiple languages",
+            "A": "1",
+            "B": "2",
+            "C": "1, 2",
+            "D": "1, 2, 3",
+            "Solution": "C",
+            "Difficulty": "2"
+        },
+        {
+            "Topic": "NLP",
+            "QN": "Collaborative Filtering and Content Based Models are the two popular recommendation engines, what role does NLP play in building such algorithms.",
+            "A": "Feature Extraction from text",
+            "B": "Measuring Feature Similarity",
+            "C": "Engineering Features for vector space learning model",
+            "D": "All of these",
+            "Solution": "D",
+            "Difficulty": "2"
+        },
+        {
+            "Topic": "NLP",
+            "QN": "What is the major difference between CRF (Conditional Random Field) and HMM (Hidden Markov Model)?",
+            "A": "CRF is Generative whereas HMM is Discriminative model",
+            "B": "CRF is Discriminative whereas HMM is Generative model",
+            "C": "Both CRF and HMM are Generative model",
+            "D": "Both CRF and HMM are Discriminative model",
+            "Solution": "B",
+            "Difficulty": "2"
+        },
+        {
+            "Topic": "NLP",
+            "QN": "Retrieval based models and Generative models are the two popular techniques used for building chatbots. Which of the following is an example of retrieval model and generative model respectively.",
+            "A": "Dictionary based learning and Word 2 vector model",
+            "B": "Rule-based learning and Sequence to Sequence model",
+            "C": "Word 2 vector and Sentence to Vector model",
+            "D": "Recurrent neural network and convolutional neural network",
+            "Solution": "B",
+            "Difficulty": "2"
+        },
+        {
+            "Topic": "NLP",
+            "QN": "Social Media platforms are the most intuitive form of text data. You are given a corpus of complete social media data of tweets. How can you create a model that suggests the hashtags?",
+            "A": "Perform Topic Models to obtain most significant words of the corpus",
+            "B": "Train a Bag of N-grams model to capture top n-grams – words and their combinations",
+            "C": "Train a word2vector model to learn repeating contexts in the sentences",
+            "D": "All of these",
+            "Solution": "D",
+            "Difficulty": "3"
+        },
+        {
+            "Topic": "Probability",
+            "QN": "Let A and B be events on the same sample space, with P (A) = 0.6 and P (B) = 0.7. Can these two events be disjoint?",
+            "A": "Yes",
+            "B": "No",
+            "Solution": "B",
+            "Difficulty": "2"
+        },
+        {
+            "Topic": "Probability",
+            "QN": "Alice has 2 kids and one of them is a girl. What is the probability that the other child is also a girl? You can assume that there are an equal number of males and females in the world.",
+            "A": "0.5",
+            "B": "0.25",
+            "C": "0.333",
+            "D": "0.75",
+            "Solution": "C",
+            "Difficulty": "2"
+        },
+        {
+            "Topic": "Probability",
+            "QN": "A fair six-sided die is rolled twice. What is the probability of getting 2 on the first roll and not getting 4 on the second roll?",
+            "A": "1/36",
+            "B": "1/18",
+            "C": "5/36",
+            "D": "1/6",
+            "E": "1/3",
+            "Solution": "C",
+            "Difficulty": "3"
+        },
+        {
+            "Topic": "Probability",
+            "QN": "Consider a tetrahedral die and roll it twice. What is the probability that the number on the first roll is strictly higher than the number on the second roll? Note: A tetrahedral die has only four sides (1, 2, 3 and 4). ",
+            "A": "1/2",
+            "B": "3/8",
+            "C": "7/16",
+            "D": "9/16",
+            "Solution": "B",
+            "Difficulty": "3"
+        },
+        {
+            "Topic": "Probability",
+            "QN": "Which of the following options cannot be the probability of any event? \nA) -0.00001\nB) 0.5\nC) 1.001",
+            "A": "Only A",
+            "B": "Only B",
+            "C": "Only C",
+            "D": "B and C",
+            "E": "A and C",
+            "Solution": "E",
+            "Difficulty": "3"
+        },
+        {
+            "Topic": "Probability",
+            "QN": "A fair six-sided die is rolled 6 times. What is the probability of getting all outcomes as unique?",
+            "A": "0.01543",
+            "B": "0.01993",
+            "C": "0.23148",
+            "D": "0.03333",
+            "Solution": "A",
+            "Difficulty": "1"
+        },
+        {
+            "Topic": "Probability",
+            "QN": "A group of 60 students is randomly split into 3 classes of equal size. All partitions are equally likely. Jack and Jill are two students belonging to that group. What is the probability that Jack and Jill will end up in the same class? ",
+            "A": "1/3",
+            "B": "19/59",
+            "C": "18/58",
+            "D": "1/2",
+            "Solution": "B",
+            "Difficulty": "1"
+        },
+        {
+            "Topic": "Probability",
+            "QN": "We have two coins, A and B. For each toss of coin A, the probability of getting head is 1/2 and for each toss of coin B, the probability of getting Heads is 1/3. All tosses of the same coin are independent. We select a coin at random and toss it till we get a head. The probability of selecting coin A is ¼ and coin B is 3/4. What is the expected number of tosses to get the first heads?",
+            "A": "2.75",
+            "B": "3.35",
+            "C": "4.13",
+            "D": "5.33",
+            "Solution": "A",
+            "Difficulty": "2"
+        },
+        {
+            "Topic": "Probability",
+            "QN": "Suppose a life insurance company sells a $240,000 one year term life insurance policy to a 25-year old female for $210. The probability that the female survives the year is .999592. Find the expected value of this policy for the insurance company",
+            "A": "$131",
+            "B": "$140",
+            "C": "$112",
+            "D": "$125",
+            "Solution": "C",
+            "Difficulty": "2"
+        },
+        {
+            "Topic": "Probability",
+            "QN": "When an event A independent of itself?",
+            "A": "Always",
+            "B": "If and only if P(A)=0",
+            "C": "If and only if P(A)=1",
+            "D": "If and only if P(A)=0 or 1",
+            "Solution": "D",
+            "Difficulty": "2"
+        },
+        {
+            "Topic": "Probability",
+            "QN": "Cross-fertilizing a red and a white flower produces red flowers 25% of the time. Now we cross-fertilize five pairs of red and white flowers and produce five offspring. What is the probability that there are no red flower plants in the five offspring? ",
+            "A": "23.70%",
+            "B": "37.20%",
+            "C": "22.50%",
+            "D": "27.30%",
+            "Solution": "A",
+            "Difficulty": "3"
+        },
+        {
+            "Topic": "Probability",
+            "QN": "A roulette wheel has 38 slots – 18 red, 18 black, and 2 green. You play five games and always bet on red slots. How many games can you expect to win?",
+            "A": "1.1165",
+            "B": "2.3684",
+            "C": "2.6316",
+            "D": "4.7368",
+            "Solution": "B",
+            "Difficulty": "3"
+        },
+        {
+            "Topic": "Probability",
+            "QN": "A roulette wheel has 38 slots, 18 are red, 18 are black, and 2 are green. You play five games and always bet on red. What is the probability that you win all the 5 games?",
+            "A": "0.0368",
+            "B": "0.0238",
+            "C": "0.0526",
+            "D": "0.0473",
+            "Solution": "B",
+            "Difficulty": "3"
+        },
+        {
+            "Topic": "Probability",
+            "QN": "Some test scores follow a normal distribution with a mean of 18 and a standard deviation of 6. What proportion of test takers have scored between 18 and 24?",
+            "A": "20%",
+            "B": "22%",
+            "C": "34%",
+            "D": "None of the above",
+            "Solution": "C",
+            "Difficulty": "3"
+        },
+        {
+            "Topic": "Probability",
+            "QN": "A jar contains 4 marbles. 3 Red & 1 white. Two marbles are drawn with replacement after each draw. What is the probability that the same colour marble is drawn twice?",
+            "A": "1/2",
+            "B": "1/3",
+            "C": "5/8",
+            "D": "1/8",
+            "Solution": "C",
+            "Difficulty": "3"
+        },
+        {
+            "Topic": "Statistics",
+            "QN": "Which of these measures are used to analyze the central tendency of data?",
+            "A": "Mean and Normal Distribution",
+            "B": "Mean, Median and Mode",
+            "C": "Mode, Alpha & Range",
+            "D": "Standard Deviation, Range and Mean",
+            "E": "Median, Range and Normal Distribution",
+            "Solution": "B",
+            "Difficulty": "3"
+        },
+        {
+            "Topic": "Statistics",
+            "QN": "Five numbers are given: (5, 10, 15, 5, 15). Now, what would be the sum of deviations of individual data points from their mean?",
+            "A": "10",
+            "B": "25",
+            "C": "50",
+            "D": "0",
+            "E": "None of the above",
+            "Solution": "D",
+            "Difficulty": "2"
+        },
+        {
+            "Topic": "Statistics",
+            "QN": "A test is administered annually. The test has a mean score of 150 and a standard deviation of 20. If Ravi’s z-score is 1.50, what was his score on the test?",
+            "A": "180",
+            "B": "130",
+            "C": "30",
+            "D": "150",
+            "E": "None of the above",
+            "Solution": "A",
+            "Difficulty": "2"
+        },
+        {
+            "Topic": "Statistics",
+            "QN": "Which of the following measures of central tendency will always change if a single value in the data changes?",
+            "A": "Mean",
+            "B": "Median",
+            "C": "Mode",
+            "D": "All of these",
+            "Solution": "A",
+            "Difficulty": "1"
+        },
+        {
+            "Topic": "Statistics",
+            "QN": "If a positively skewed distribution has a median of 50, which of the following statement is true?",
+            "A": "Mean is greater than 50",
+            "B": "Mean is less than 50",
+            "C": "Mode is less than 50",
+            "D": "Mode is greater than 50",
+            "E": "Both A and C",
+            "Solution": "E",
+            "Difficulty": "2"
+        },
+        {
+            "Topic": "Statistics",
+            "QN": " Which of the following statements are true about Bessels Correction while calculating a sample standard deviation?\n1. Bessels correction is always done when we perform any operation on a sample data.\n2. Bessels correction is used when we are trying to estimate population standard deviation from the sample.\n3. Bessels corrected standard deviation is less biased.",
+            "A": "Only 2",
+            "B": "Only 3",
+            "C": "Both 2 and 3",
+            "D": "Both 1 and 3",
+            "Solution": "C",
+            "Difficulty": "2"
+        },
+        {
+            "Topic": "Statistics",
+            "QN": "If the variance of a dataset is correctly computed with the formula using (n – 1) in the denominator, which of the following option is true?",
+            "A": "Dataset is a sample",
+            "B": "Dataset is a population",
+            "C": "Dataset could be either a sample or a population",
+            "D": "Dataset is from a census",
+            "E": "None of the above",
+            "Solution": "A",
+            "Difficulty": "1"
+        },
+        {
+            "Topic": "Statistics",
+            "QN": "Standard deviation can be negative.",
+            "A": "TRUE",
+            "B": "FALSE",
+            "Solution": "B",
+            "Difficulty": "1"
+        },
+        {
+            "Topic": "Statistics",
+            "QN": "Standard deviation is robust to outliers?",
+            "A": "TRUE",
+            "B": "FALSE",
+            "Solution": "B",
+            "Difficulty": "2"
+        },
+        {
+            "Topic": "Statistics",
+            "QN": "The standard normal curve is symmetric about 0 and the total area under it is 1.",
+            "A": "TRUE",
+            "B": "FALSE",
+            "Solution": "A",
+            "Difficulty": "2"
+        },
+        {
+            "Topic": "Statistics",
+            "QN": "A researcher concludes from his analysis that a placebo cures AIDS. What type of error is he making?",
+            "A": "Type 1 error",
+            "B": "Type 2 error",
+            "C": "None of these. The researcher is not making an error.",
+            "D": "Cannot be determined",
+            "Solution": "D",
+            "Difficulty": "2"
+        },
+        {
+            "Topic": "Statistics",
+            "QN": "What happens to the confidence interval when we introduce some outliers to the data?",
+            "A": "Confidence interval is robust to outliers",
+            "B": "Confidence interval will increase with the introduction of outliers.",
+            "C": "Confidence interval will decrease with the introduction of outliers.",
+            "D": "We cannot determine the confidence interval in this case.",
+            "Solution": "B",
+            "Difficulty": "1"
+        },
+        {
+            "Topic": "Statistics",
+            "QN": "If the correlation coefficient (r) between scores in a math test and amount of physical exercise by a student is 0.86, what percentage of variability in math test is explained by the amount of exercise?",
+            "A": "86%",
+            "B": "74%",
+            "C": "14%",
+            "D": "26%",
+            "Solution": "B",
+            "Difficulty": "2"
+        },
+        {
+            "Topic": "Statistics",
+            "QN": "What is the value of t-statistic?",
+            "A": "3.191",
+            "B": "3.395",
+            "C": "Cannot be determined.",
+            "D": "None of the above",
+            "Solution": "A",
+            "Difficulty": "3"
+        },
+        {
+            "Topic": "Statistics",
+            "QN": "Is there a significant difference in the scores of the two groups?",
+            "A": "Yes",
+            "B": "No",
+            "Solution": "A",
+            "Difficulty": "2"
+        },
+        {
+            "Topic": "Statistics",
+            "QN": "What percentage of variability in scores is explained by the method of teaching?",
+            "A": "36.13",
+            "B": "45.21",
+            "C": "40.33",
+            "D": "32.97",
+            "Solution": "A",
+            "Difficulty": "3"
+        },
+        {
+            "Topic": "Statistics",
+            "QN": "F statistic cannot be negative.",
+            "A": "TRUE",
+            "B": "FALSE",
+            "Solution": "A",
+            "Difficulty": "1"
+        },
+        {
+            "Topic": "Image Processing",
+            "QN": "Match the following image formats to their correct number of channels - GrayScale, RGB : (i) 1 channel, (ii) 2 channels, (iii) 3 channels, (iv) 4 channels\n",
+            "A": "RGB -> I, GrayScale-> III",
+            "B": "RGB -> IV, GrayScale-> II",
+            "C": "RGB -> III, GrayScale -> I\n",
+            "D": "RGB -> II, GrayScale -> I",
+            "E": "RGB -> III, GrayScale -> II\n",
+            "Solution": "C",
+            "Difficulty": "1"
+        },
+        {
+            "Topic": "Image Processing",
+            "QN": "PSEUDO QN 2",
+            "A": "1",
+            "B": "2",
+            "C": "3",
+            "D": "4",
+            "E": "5",
+            "Solution": "B",
+            "Difficulty": "2"
+        },
+        {
+            "Topic": "Image Processing",
+            "QN": "PSEUDO QN 3",
+            "A": "1",
+            "B": "2",
+            "C": "3",
+            "D": "4",
+            "E": "5",
+            "Solution": "C",
+            "Difficulty": "1"
+        },
+        {
+            "Topic": "Image Processing",
+            "QN": "PSEUDO QN 4",
+            "A": "1",
+            "B": "2",
+            "C": "3",
+            "D": "4",
+            "E": "5",
+            "Solution": "D",
+            "Difficulty": "2"
+        },
+        {
+            "Topic": "Image Processing",
+            "QN": "PSEUDO QN 5",
+            "A": "1",
+            "B": "2",
+            "C": "3",
+            "D": "4",
+            "E": "5",
+            "Solution": "E",
+            "Difficulty": "3"
+        },
+        {
+            "Topic": "Image Processing",
+            "QN": "PSEUDO QN 6",
+            "A": "1",
+            "B": "2",
+            "C": "3",
+            "D": "4",
+            "E": "5",
+            "Solution": "A",
+            "Difficulty": "1"
+        },
+        {
+            "Topic": "Image Processing",
+            "QN": "PSEUDO QN 7",
+            "A": "1",
+            "B": "2",
+            "C": "3",
+            "D": "4",
+            "E": "5",
+            "Solution": "B",
+            "Difficulty": "3"
+        },
+        {
+            "Topic": "Image Processing",
+            "QN": "PSEUDO QN 8",
+            "A": "1",
+            "B": "2",
+            "C": "3",
+            "D": "4",
+            "E": "5",
+            "Solution": "C",
+            "Difficulty": "1"
+        },
+        {
+            "Topic": "Image Processing",
+            "QN": "PSEUDO QN 9",
+            "A": "1",
+            "B": "2",
+            "C": "3",
+            "D": "4",
+            "E": "5",
+            "Solution": "D",
+            "Difficulty": "1"
+        },
+        {
+            "Topic": "Image Processing",
+            "QN": "PSEUDO QN 10",
+            "A": "1",
+            "B": "2",
+            "C": "3",
+            "D": "4",
+            "E": "5",
+            "Solution": "E",
+            "Difficulty": "3"
+        },
+        {
+            "Topic": "Image Processing",
+            "QN": "PSEUDO QN 11",
+            "A": "1",
+            "B": "2",
+            "C": "3",
+            "D": "4",
+            "E": "5",
+            "Solution": "A",
+            "Difficulty": "2"
+        },
+        {
+            "Topic": "Image Processing",
+            "QN": "PSEUDO QN 12",
+            "A": "1",
+            "B": "2",
+            "C": "3",
+            "D": "4",
+            "E": "5",
+            "Solution": "B",
+            "Difficulty": "3"
+        },
+        {
+            "Topic": "Image Processing",
+            "QN": "PSEUDO QN 13",
+            "A": "1",
+            "B": "2",
+            "C": "3",
+            "D": "4",
+            "E": "5",
+            "Solution": "C",
+            "Difficulty": "2"
+        },
+        {
+            "Topic": "Image Processing",
+            "QN": "PSEUDO QN 14",
+            "A": "1",
+            "B": "2",
+            "C": "3",
+            "D": "4",
+            "E": "5",
+            "Solution": "D",
+            "Difficulty": "3"
+        },
+        {
+            "Topic": "Image Processing",
+            "QN": "PSEUDO QN 15",
+            "A": "1",
+            "B": "2",
+            "C": "3",
+            "D": "4",
+            "E": "5",
+            "Solution": "E",
+            "Difficulty": "2"
+        }
+    ]
+}

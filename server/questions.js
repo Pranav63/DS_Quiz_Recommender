@@ -30,7 +30,7 @@ function getAllQ (questionsList){
 exports.getAllQ = getAllQ
 
 //  getAllQ().then(x=>console.log(x.CNN[3][0]))
-// gets a test of specific topic and difficulty
+/* the idea is to get the question from a specific topic with a certain level difficulty*/
 function getOne({topic, difficulty}){
         return db.query(aql`
 FOR q IN questions
